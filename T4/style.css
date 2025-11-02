@@ -1,0 +1,72 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #FCF9EA;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h3 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    background: #d7f9f5;
+    border-radius: 100px;
+    padding: 150px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color: #FFA4A4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: alias;
+}
+
+button:hover {
+    background-color: #FFBDBD;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #FFA4A4;
+    color: #333;;
+}
+
+tr {
+    background-color: white;
+}
