@@ -15,7 +15,6 @@ header {
     padding: 20px;
     background-color: #222222;
     justify-content: flex-start;
-    flex-wrap: wrap;
 }
 
 section { 
@@ -35,7 +34,6 @@ nav {
     font-size: 22px;
     word-spacing: 25px;
     cursor: pointer;
-    flex-wrap: wrap;
 }
 
 main {
@@ -223,6 +221,11 @@ footer {
     font-size: 14px;
 }
 
+
+
+/* Responsiveness*/
+
+/* Tablets (max-width: 1024px) */
 @media (max-width: 1024px) {
     main {
         padding: 30px 40px;
@@ -250,7 +253,6 @@ footer {
         width: 40%;
     }
 }
-
 
 /* Mobile (max-width: 700px) */
 @media (max-width: 700px) {
